@@ -51,20 +51,20 @@ app.post("/api/contact", async (req, res) => {
 //   },
 // });
 
-    await transporter.sendMail({
-      from: process.env.EMAIL_USER,
-      to: process.env.EMAIL_USER,
-      subject: `Portfolio Contact - ${name}`,
-      html: `
-        <h2>New Portfolio Contact</h2>
+    // await transporter.sendMail({
+    //   from: process.env.EMAIL_USER,
+    //   to: process.env.EMAIL_USER,
+    //   subject: `Portfolio Contact - ${name}`,
+    //   html: `
+    //     <h2>New Portfolio Contact</h2>
 
-        <p><strong>Name:</strong> ${name}</p>
-        <p><strong>Email:</strong> ${email}</p>
-        <p><strong>Message:</strong></p>
+    //     <p><strong>Name:</strong> ${name}</p>
+    //     <p><strong>Email:</strong> ${email}</p>
+    //     <p><strong>Message:</strong></p>
 
-        <p>${message}</p>
-      `,
-    });
+    //     <p>${message}</p>
+    //   `,
+    // });
 
     return res.status(201).json({
       success: true,

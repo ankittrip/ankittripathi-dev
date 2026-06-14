@@ -110,7 +110,7 @@ export const projects = [
       "Socket.IO",
       "Express",
     ],
-    github: "https://github.com/ankittrip/bulk-data-uploader",
-    demo: "",
+    github: "https://github.com/ankittrip/BULK-DATA-UPLOADER-PROJRCT",
+    demo: "https://bulk-data-uploader-projrct.vercel.app/",
   },
 ];

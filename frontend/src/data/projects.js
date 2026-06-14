@@ -26,40 +26,40 @@ export const projects = [
   },
 
   {
-    name: "Neural Nodes",
-    featured: true,
-    image: neuralNodes,
-    description:
-      "AI-powered infrastructure deployment platform where users paste a GitHub repository and the system auto-analyzes the stack, calculates pricing, and provisions a live URL — triggered by on-chain USDC payments.",
-    tech: [
-      "Node.js",
-      "Express",
-      "React",
-      "MongoDB",
-      "Locus Checkout",
-      "Webhooks",
-    ],
-    github: "https://github.com/ankittrip/NeuralNodes---AI-Infrastructure-as-Chat",
-    demo: "https://youtu.be/uiY4oci79aw",
-  },
+  name: "Neural Nodes",
+  featured: true,
+  image: neuralNodes,
+  description:
+    "🏆 Hackathon Project — AI-powered infrastructure deployment platform where users paste a GitHub repository and the system automatically analyzes the architecture, calculates deployment pricing, and provisions deployment workflows through Locus Checkout and webhook automation.",
+  tech: [
+    "Node.js",
+    "Express",
+    "React",
+    "MongoDB",
+    "Locus Checkout",
+    "Webhooks",
+  ],
+  github: "https://github.com/ankittrip/NeuralNodes---AI-Infrastructure-as-Chat",
+  demo: "",
+},
 
   {
-    name: "Code EZ – AI Presentation Engine",
-    featured: true,
-    image: ezPresentation,
-    description:
-      "Intelligent Markdown-to-PowerPoint pipeline using Groq (Llama-3.3-70b) with a custom validation guardrail that mathematically verifies LLM chart suggestions and auto-corrects invalid choices — achieving 100% fault tolerance.",
-    tech: [
-      "Node.js",
-      "Express",
-      "Groq",
-      "PptxGenJS",
-      "Jest",
-      "Supertest",
-    ],
-    github: "https://github.com/ankittrip/ez-presentation-ai",
-    demo: "",
-  },
+  name: "Code EZ – AI Presentation Engine",
+  featured: true,
+  image: ezPresentation,
+  description:
+    "🏆 Hackathon Project — AI-powered Markdown-to-PowerPoint generation engine featuring intelligent layout orchestration, validation guardrails, chart verification, overflow protection, and automated infographic generation for enterprise-grade presentations.",
+  tech: [
+    "Node.js",
+    "Express",
+    "Groq",
+    "PptxGenJS",
+    "Jest",
+    "Supertest",
+  ],
+  github: "https://github.com/ankittrip/ez-presentation-ai",
+  demo: "",
+},
 
   {
     name: "BookIt – Booking Engine",
